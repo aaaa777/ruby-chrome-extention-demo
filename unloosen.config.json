@@ -1,0 +1,12 @@
+{
+    "content_scripts": [
+        {
+            "rb": ["src/content_script1.rb"],
+            "matches": ["<all_urls>"]
+        },
+        {
+            "rb": ["src/content_script2.rb"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}

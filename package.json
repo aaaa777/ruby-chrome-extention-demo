@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "ruby-head-wasm-wasi": "^0.3.0",
+    "webpack": "^5.74.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
+  }
+}

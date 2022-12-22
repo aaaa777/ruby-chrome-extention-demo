@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "ruby-demo-extension",
+    "description": "ruby demo extension",
+    "version": "0.0.1",
+    "content_scripts": [
+        {
+            "js": ["dist/content-script.umd.js"],
+            "matches": [
+                "http://www.example.com/",
+                "https://www.google.com/*"
+            ]
+        }
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
+    },
+    "web_accessible_resources": [
+        {
+          "resources": ["*"],
+          "matches": ["<all_urls>"]
+        }
+    ]
+}
