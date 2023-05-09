@@ -7,8 +7,7 @@
         {
             "js": ["dist/content-script.umd.js"],
             "matches": [
-                "http://www.example.com/",
-                "https://www.google.com/*"
+                "http://www.example.com/"
             ]
         }
     ],
