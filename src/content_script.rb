@@ -1,5 +1,5 @@
 require "js"
-puts "Hello, this is content_script1!"
+puts "Hello, this is content_script!"
 
 # change h1 text
 document = JS.global[:document]
