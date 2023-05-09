@@ -2,7 +2,7 @@
 
 # demo video
 
-[![demovideo](https://github.com/aaaa777/ruby-chrome-extention-demo/assets/27488794/379786fb-5adb-4945-96e2-9897bf71a6fc)](https://www.youtube.com/watch?v=W92OpRax-QM)
+https://github.com/aaaa777/ruby-chrome-extention-demo/assets/27488794/db630b69-b66d-4c0b-bee0-d335e7422953
 
 # インストール方法
 
