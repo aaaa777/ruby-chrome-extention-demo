@@ -3,14 +3,14 @@ puts "Hello, this is content_script1!"
 
 # change h1 text
 document = JS.global[:document]
-document[:querySelector].call(:call, document, "h1")[:innerText] = JS.try_convert("Rubyで動いたよ!")
+document[:querySelector].call(:call, document, "h1")[:innerText] = JS.try_convert("Example Page with ruby.wasm!")
 
 # same code in JavaScript
-# document.querySelector('h1').innerText = "Rubyで動いたよ!";
+# document.querySelector('h1').innerText = "Example Page with ruby.wasm!";
 
 
 # set background color red
-JS.global[:document][:body][:style][:backgroundColor] = JS.try_convert("red")
+JS.global[:document][:body][:style][:backgroundColor] = JS.try_convert("crimson")
 
 # in JS
-# document.body.style.backgroundColor = "red";
+# document.body.style.backgroundColor = "crimson";
