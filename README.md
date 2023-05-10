@@ -1,5 +1,9 @@
 # ruby-chrome-extention-demo
 
+# demo video
+
+https://github.com/aaaa777/ruby-chrome-extention-demo/assets/27488794/db630b69-b66d-4c0b-bee0-d335e7422953
+
 # インストール方法
 
 1. Codeをダウンロード
